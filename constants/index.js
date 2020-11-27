@@ -39,7 +39,7 @@ export const blogPost = [
     },
     {
         id: 4,
-        photo: "/assets/css variables.jpg",
+        photo: "/assets/css-variables.jpg",
         tag : "Front-end",
         date: "2 Month Ago",
         head: "Css Variables",
@@ -50,13 +50,13 @@ export const blogPost = [
     },
     {
         id: 5,
-        photo: "/assets/css variables.jpg",
+        photo: "/assets/css-spacing.jpg",
         tag : "Front-end",
-        date: "2 Month Ago",
-        head: "Css Variables",
-        shortArticle: "CSS variables are custom properties that cascade normally and even inherit. They start with a reserved -- prefix, and there are no real rules about their value.",
+        date: "3 Month Ago",
+        head: "Spacing in Css",
+        shortArticle: "In this article, I will cover everything you need to know about spacing in CSS, the different ways of achieving that, and when to use a padding or margin.",
         article: "...",
-        readMin: "10 Min Read"
+        readMin: "5 Min Read"
 
     }
 ]
