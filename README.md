@@ -1,8 +1,8 @@
-#Next.js Blog Template.
+### Next.js Blog Template.
 
 ![picture](public/cover/dasdas-blog-cover.jpg)
 
-###Blog design template with Next.js.
+**Blog design template with Next.js.**
 
 [Live preview](https://nextjs-blog-template-gamma.vercel.app/)
 
