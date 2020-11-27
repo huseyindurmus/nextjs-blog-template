@@ -1,0 +1,37 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-unit);
+    height: 100px;
+    background-color: var(--c-white);
+}
+.Logo{
+    display: flex;
+    font-size: 80px;
+    height: 80px;
+}
+
+.Social{
+    & > ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 20px;
+        color: var(--c-black-30);
+        & > li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            flex: 1;
+        }
+        & > li:nth-child(2n+0){
+            color: var(--c-black-20);
+            width: auto;
+            line-height: 20px;
+        }
+    }
+}

@@ -1,0 +1,6 @@
+export { default as Arrow } from './Arrow'
+export { default as Dribbble } from './Dribbble'
+export { default as Figma } from './Figma'
+export { default as Github } from './Github'
+export { default as Logo } from './Logo'
+export { default as Twitter } from './Twitter'

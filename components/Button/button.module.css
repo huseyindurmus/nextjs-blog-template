@@ -1,0 +1,19 @@
+.Button{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    color: var(--c-primary);
+    font-size: var(--small);
+    font-weight: var(--weight-600);
+    padding: var(--space-1);
+    & > svg{
+        font-size: 20px;
+        color: currentColor;
+    }
+    &:hover{
+        cursor: pointer;
+    }
+    &:focus{
+        outline: none;
+    }
+}

@@ -1,0 +1,40 @@
+:root, [data-theme="default"]{
+    --c-black:#2C2C2C;
+    --c-black-20:#6E6E6E;
+    --c-black-30:#4B4B4B;
+    --c-primary:#1473E6;
+    --c-border:#F5F5F5;
+    --c-white:#FFFFFF;
+
+    --h1:40px;
+    --h2:32px;
+    --h3:26px;
+    --h4:22px;
+    --h5:18px;
+    --h6:16px;
+    --body:14px;
+    --small:12px;
+
+
+    --weight-300: 300;
+    --weight-400: 400;
+    --weight-600:600;
+    --weight-700: 700;
+
+    --space-1:4px;
+    --space-2:8px;
+    --space-3:16px;
+    --space-4:24px;
+    --space-5:32px;
+    --space-6:48px;
+
+    --space-unit:10px;
+
+
+    --shadow-sm: 0 0.3px 0.4px rgba(0, 0, 0, 0.025),
+                 0 0.9px 1.5px rgba(0, 0, 0, 0.05),
+                 0 3.5px 6px rgba(0, 0, 0, 0.1);
+    --shadow-md:0 0.9px 1.5px rgba(0, 0, 0, 0.03),
+                0 3.1px 5.5px rgba(0, 0, 0, 0.08),
+                0 14px 25px rgba(0, 0, 0, 0.12);
+}

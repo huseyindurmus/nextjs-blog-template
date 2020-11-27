@@ -1,0 +1,27 @@
+.article{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    font-size: var(--h5);
+    color: var(--c-black);
+    font-weight: var(--weight-700);
+}
+
+.headLarge{
+    font-size: var(--h4);
+}
+
+.text{
+    font-size: var(--body);
+    color: var(--c-black-20);
+    white-space: pre-wrap;
+}
+
+.textMini{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

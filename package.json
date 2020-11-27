@@ -1,0 +1,27 @@
+{
+  "name": "dasdas-blog",
+  "version": "1.0.0",
+  "description": "Tutorials for css, javascript and ui design.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "icon": "svgr icons -d components/icons  --icon --replace-attr-values \"#4B4B4B=currentColor\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "^10.0.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@svgr/cli": "^5.5.0",
+    "autoprefixer": "^10.0.2",
+    "postcss-custom-media": "^7.0.8",
+    "postcss-nested": "^5.0.1",
+    "prettier": "2.2.0"
+  }
+}
